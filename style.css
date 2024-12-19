@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#top-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 2px 5px black;
+    padding: 20px;
+}
+#top-nav a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.493);
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    letter-spacing: 3px;
+}
+#top-nav-right {
+    float: right;
+    margin-right: 50px;
+}
+#home section {
+    position:relative;
+    margin-bottom: 50px;
+}
+#home-section p{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    font-size: 50px;
+    color: black;
+}
+#section-container {
+    width: 70%;
+    margin: auto;
+}
+#section-container img {
+    border-radius: 5px;
+}
+#about-section p {
+    font-size: 20px;
+}
+#about-section {
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+#img-container {
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+    padding: 10px 20px;
+}
+#img container img {
+    opacity: 0.7;
+}
+#grey {
+    color: gray;
+}
+#text-container {
+    box-sizing: border-box;
+    width: 49%;
+    float: left;
+    padding: 10px 20px;
+}
+#about-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#menu-section {
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+#menu-section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#text-containeer2 {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 49%;
+    float: left;
+}
+#text-container2 p{
+    color: gray;
+    font-size: 17px;
+}
+#img-container2 {
+    box-sizing: border-box;
+    padding: 10px 20px;
+    width: 49%;
+    float: left;
+}
+
+.contanct-section {
+    padding:30px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.contanct-info {
+    display: flex;
+   flex-direction: column;
+}
+.contanct-info, h1 {
+    align-items: center;
+    font-size: 30px;
+}
+.contanct-info, p {
+    font-size: 20px;
+}
+
+.contact-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    width: fit-content;
+}
+.form-element label{
+    margin: 5px;
+    font: bold;
+}
+.form-element input{
+   padding: 10px;
+   font-size: 15px;
+}
+.contact-form button{
+    padding: 10px;
+    background-color: blue;
+    width: fit-content;
+    color: white;
+    margin: 4px;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
